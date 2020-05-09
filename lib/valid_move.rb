@@ -4,7 +4,7 @@
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
 def input_to_index(user_input)
   input.to_i - 1
-  return index 
+  return index
 end 
 
 board = [" "," "," "," "," "," "," "," "," "]
@@ -19,7 +19,7 @@ def position_taken?(board,index)
 end
 
 def valid_move?(board,index)
-  if 
+  if
   elsif position_taken?(board,index)
     return false
   end
