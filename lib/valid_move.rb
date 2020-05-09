@@ -19,7 +19,7 @@ def position_taken?(board,index)
 end
 
 def valid_move?(board,index)
-  if index == input_to_index(user_input) && board == [" "]
+  if input_to_index(user_input) && board == [" "]
     return true
   elsif index <= 9
     return false
