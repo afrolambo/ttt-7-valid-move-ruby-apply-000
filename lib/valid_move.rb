@@ -5,7 +5,7 @@
 def input_to_index(user_input)
   input.to_i - 1
   return index
-end 
+end
 
 board = [" "," "," "," "," "," "," "," "," "]
 index = 0 || 1 || 2 || 3 || 4 || 5 || 6 || 7 || 8
